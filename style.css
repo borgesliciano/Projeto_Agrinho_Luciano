@@ -1,3 +1,70 @@
+body {
+            font-family: Arial, sans-serif;
+            background: #f0f6f0;
+            color: #2a4d2a;
+            margin: 0;
+        }
+        
+        .cabecalho {
+            background: #4a7c4a;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+        
+        .cabecalho h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .navbar {
+            background: #3f6b3f;
+            padding: 10px;
+
+.nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+        
+        .container {
+            padding: 30px 15px;
+        }
+        
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .img-agro {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .card {
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .btn-primary {
+            background: #4a7c4a;
+            border: none;
+            padding: 8px 15px;
+        }
+        
+        .footer {
+            background: #3f6b3f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
 /* Estilos gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
