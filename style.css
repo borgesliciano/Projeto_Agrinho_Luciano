@@ -1,82 +1,10 @@
 body {
-            font-family: Arial, sans-serif;
-            background: #f0f6f0;
-            color: #2a4d2a;
-            margin: 0;
-        }
-        
-        .cabecalho {
-            background: #4a7c4a;
-            color: white;
-            text-align: center;
-            padding: 30px 15px;
-        }
-        
-        .cabecalho h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .navbar {
-            background: #3f6b3f;
-            padding: 10px;
-
-.nav-link {
-            color: white !important;
-            font-weight: bold;
-        }
-        
-        .container {
-            padding: 30px 15px;
-        }
-        
-        p {
-            text-align: justify;
-            line-height: 1.6;
-            margin-bottom: 15px;
-            text-align: justify
-        }
-        
-        .img-agro {
-            width: 100%;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-        
-        .card {
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-        }
-        
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .btn-primary {
-            background: #4a7c4a;
-            border: none;
-            padding: 8px 15px;
-        }
-        
-        .footer {
-            background: #3f6b3f;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-        }
-/* Estilos gerais */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F1EFE3;
     color: #2E2E2E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
 }
 
-/* Cabeçalho */
 .cabecalho {
     background-color: #5A7D5A;
     color: #fff;
@@ -85,90 +13,46 @@ body {
     border-bottom: 5px solid #A3C957;
 }
 
-.cabecalho h1 {
-    margin-bottom: 0.3rem;
-    font-size: 2.5rem;
-}
-
-.cabecalho h3 {
-    font-weight: 400;
-    font-size: 1.4rem;
-    opacity: 0.9;
-}
-
-/* Navegação */
 .navbar {
     background-color: #5A7D5A !important;
-    padding: 0.5rem 1rem;
 }
 
 .navbar-nav .nav-link {
     font-weight: bold;
     color: #fff !important;
-    padding: 0.5rem 1rem;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #A3C957 !important;
 }
 
 .navbar-nav .nav-link.active {
     text-decoration: underline;
 }
 
-/* Conteúdo principal */
-.container {
-    padding: 2rem 1rem;
-}
-
-/* Textos */
-h1, h2, h3, h4, h5 {
-    color: #5A7D5A;
-}
-
-p {
-    text-align: justify;
-    margin-bottom: 1rem;
-    line-height: 1.6;
-}
-
-/* Imagens */
 .img-agro, .img-card, .img-slide {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Cards */
 .card {
     background-color: #F1EFE3;
     border: 1px solid #C7A17A;
-    border-radius: 8px;
+    border-radius: 12px;
     transition: transform 0.3s ease;
-    margin-bottom: 1.5rem;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.03);
 }
 
 .card-title {
     color: #5A7D5A;
-    font-weight: 600;
 }
 
-.card-text {
-    text-align: justify;
-}
-
-/* Botões */
 .btn-primary {
     background-color: #A3C957;
     border-color: #A3C957;
     color: #2E2E2E;
     font-weight: bold;
-    padding: 0.5rem 1rem;
 }
 
 .btn-primary:hover {
@@ -176,7 +60,6 @@ p {
     border-color: #8FB843;
 }
 
-/* Rodapé */
 .footer {
     background-color: #5A7D5A;
     color: #fff;
@@ -185,17 +68,10 @@ p {
     margin-top: 3rem;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .cabecalho h1 {
-        font-size: 2rem;
-    }
-    
-    .cabecalho h3 {
-        font-size: 1.2rem;
-    }
-    
-    .navbar-nav .nav-link {
-        padding: 0.5rem;
-    }
+h1, h2, h3, h5 {
+    color: #5A7D5A;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
 }
